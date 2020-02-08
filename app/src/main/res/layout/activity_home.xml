@@ -10,8 +10,16 @@
         android:id="@+id/scrollView2"
         android:layout_width="467dp"
         android:layout_height="577dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-15dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,13 +29,13 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="@android:dimen/notification_large_icon_height"
+                android:layout_height="@android:dimen/thumbnail_height"
                 android:clickable="true"
                 android:contentDescription="image1"
                 android:focusable="auto"
                 android:focusableInTouchMode="true"
                 android:onClick="sendMessage1"
-                android:src="@drawable/cake"
+                android:src="@drawable/burger"
                 android:visibility="visible" />
 
             <ProgressBar
@@ -37,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:background="#00BB2424"
                 android:max="100"
-                android:progress="50" />
+                android:progress="30" />
 
             <Space
                 android:layout_width="match_parent"
@@ -46,12 +54,12 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="@android:dimen/notification_large_icon_height"
+                android:layout_height="@android:dimen/thumbnail_height"
                 android:contentDescription="image2"
                 android:focusable="auto"
                 android:focusableInTouchMode="true"
                 android:onClick="sendMessage2"
-                android:src="@drawable/cake"
+                android:src="@drawable/socks"
                 android:visibility="visible" />
 
             <ProgressBar
@@ -70,12 +78,12 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="@android:dimen/notification_large_icon_height"
+                android:layout_height="@android:dimen/thumbnail_height"
                 android:contentDescription="image3"
                 android:focusable="auto"
                 android:focusableInTouchMode="true"
                 android:onClick="sendMessage3"
-                android:src="@drawable/cake"
+                android:src="@drawable/hibernation"
                 android:visibility="visible" />
 
             <ProgressBar
@@ -85,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:background="#00BB2424"
                 android:max="100"
-                android:progress="50" />
+                android:progress="70" />
 
             <Space
                 android:layout_width="match_parent"
@@ -96,10 +104,10 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="@android:dimen/notification_large_icon_height"
+                android:layout_height="@android:dimen/thumbnail_height"
                 android:contentDescription="image4"
                 android:onClick="sendMessage4"
-                android:src="@drawable/cake"
+                android:src="@drawable/coffeecup"
                 android:visibility="visible" />
 
             <ProgressBar
@@ -109,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:background="#00BB2424"
                 android:max="100"
-                android:progress="50" />
+                android:progress="10" />
 
         </LinearLayout>
     </ScrollView>
@@ -126,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_end="620dp" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -148,12 +156,11 @@
         app:layout_constraintGuide_begin="16dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
+        android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="113dp" />
-
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
