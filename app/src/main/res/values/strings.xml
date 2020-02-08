@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Heartt</string>
+
+    <string name = "sandwich">
+        <br>
+            The Sandwich Grill is known to provide everyone with mouth watering sandwiches. We offer basic cheese sandwiches to our very favorite triple bacon, egg, sausage jumbo sandwich. Come and enjoy a meal at the Sandwich Grill and we promise you will not be disappointed. \n></br>
+        <br>
+            With the help of the donation you provide to us, we are able to offer food to EVERYONE. So help us out so we can help each other to make the world a better place! \n</br>
+    </string>
 </resources>
