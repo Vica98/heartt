@@ -25,19 +25,19 @@ public class HomeActivity extends AppCompatActivity {
 
     public void sendMessage2(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, SponsorInfo.class);
+        Intent intent = new Intent(this, Gloves.class);
         startActivity(intent);
     }
 
     public void sendMessage3(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, SponsorInfo.class);
+        Intent intent = new Intent(this, SleepWell.class);
         startActivity(intent);
     }
 
     public void sendMessage4(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, SponsorInfo.class);
+        Intent intent = new Intent(this, SleepWell.class);
         startActivity(intent);
     }
 

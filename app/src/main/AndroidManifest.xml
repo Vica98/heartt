@@ -10,7 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HistoryActivity"></activity>
-        <activity android:name=".SponsorInfo" />
+        <activity android:name=".SleepWell"
+            android:parentActivityName=".HomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Gloves"
+            android:parentActivityName=".HomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity
+            android:name=".SponsorInfo"
+            android:parentActivityName=".HomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
         <activity
             android:name=".HomeActivity"
             android:parentActivityName=".MainActivity">
