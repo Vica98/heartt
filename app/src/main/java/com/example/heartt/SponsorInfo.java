@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class SponsorInfo extends AppCompatActivity {
-    TextView text;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,3 +23,4 @@ public class SponsorInfo extends AppCompatActivity {
     }
 
     }
+
