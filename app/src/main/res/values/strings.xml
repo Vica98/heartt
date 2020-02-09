@@ -18,5 +18,9 @@
     </string>
     <string name="history_text">This is how much you have helped your community</string>
     <string name="history_button">Help More</string>
+    <string name="number_of_sandwiches">0</string>
+    <string name="number_of_socks">0</string>
+    <string name="number_of_sleep">0</string>
+    <string name="number_of_coffee">0</string>
 
 </resources>
