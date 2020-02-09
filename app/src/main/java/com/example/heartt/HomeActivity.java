@@ -67,6 +67,10 @@ public class HomeActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this, HistoryActivity.class);
                 startActivity(intent2);
                 break;
+            case R.id.item3:
+                Intent intent3 = new Intent(this, InfoPageActivity.class);
+                startActivity(intent3);
+                break;
             default:
                 return super.onOptionsItemSelected(item);
         }

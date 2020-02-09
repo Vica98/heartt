@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PaymentActivity"></activity>
+        <activity android:name=".InfoPageActivity">
+        </activity>
+        <activity android:name=".PaymentActivity" />
         <activity android:name=".HistoryActivity" />
         <activity
             android:name=".SleepWell"
@@ -53,7 +55,6 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
