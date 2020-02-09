@@ -17,7 +17,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/history_text"
-        android:textSize="9sp"
+        android:textAppearance="@style/HeadingTheme"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
