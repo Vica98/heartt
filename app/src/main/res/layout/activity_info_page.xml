@@ -6,21 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".InfoPageActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="336dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartt_logo" />
+
     <TextView
         android:id="@+id/textView16"
         android:layout_width="363dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:autoText="false"
-        android:text="Icons used in this app were made by Freepik from Flaticon"
+        android:text="Credits: Icons used in this app were made by Freepik from Flaticon"
         android:textSize="14sp"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -30,36 +44,34 @@
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Shoutout to Jordan Love for the logo design"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="375dp"
-        android:layout_height="186dp"
-        android:layout_marginTop="60dp"
-        android:text="Heartt is a partnership between local businesses and citizens.  Our main goal is to create a bridge to allow people help each other . (Think of this as a merge between Venmo and Gofundme)"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
+        android:text="About us: Heartt is a partnership between local businesses and citizens.  Our main goal is to create a bridge to allow people help each other . Regsitered users can pay upfront for food, clothes, and more, while other people can make use of those donations when needed."
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="368dp"
+        android:layout_height="251dp"
+        android:onClick="sendMessage"
+        android:text="@string/start_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>
