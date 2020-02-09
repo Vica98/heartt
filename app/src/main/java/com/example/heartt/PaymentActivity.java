@@ -54,7 +54,7 @@ public class PaymentActivity extends AppCompatActivity {
                 }
             }
         });
-
+    }
         private static JSONObject baseConfigurationJson() {
             return new JSONObject()
                     .put("apiVersion", 2)
@@ -105,5 +105,4 @@ public class PaymentActivity extends AppCompatActivity {
                 paymentsClient.loadPaymentData(request),
                 this, LOAD_PAYMENT_DATA_REQUEST_CODE);
 
-    }
 }
