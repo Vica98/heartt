@@ -1,3 +1,4 @@
+package com.example.heartt;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -33,7 +34,10 @@ public class DBHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT password from userInfo WHERE username = ?";
         Cursor c = db.rawQuery(query,new String[]{username});
-
+        if(c!=null)
+        {
+            c.moveToFirst();
+        }
         if(c.getCount()> 0){
         String pass = c.getString(0);
             if(pass.equals(password)){

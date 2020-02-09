@@ -35,6 +35,12 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /*public void user_login(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, loginInfo.class);
+        startActivity(intent);
+    }*/
+
     public void sendMessage4(View view) {
         // Do something in response to button
         Intent intent = new Intent(this, SleepWell.class);
