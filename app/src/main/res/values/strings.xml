@@ -16,5 +16,12 @@
     <string name="sleep">
         Sleep Well works towards giving you the peaceful sleep that you deserve. Our collection of comfy pillows, warm blankets, beautiful bedsheets and sleeping bags ensures that you SLEEP WELL. Come and see our collection and get the sleep that you need. \nIf you donate to Sleep Well, you will be helping us to provide pillows, blankets and sleeping bags to everyone in need. So join us in making the world a happy place! \n
     </string>
+    <string name="history_text">This is how much you have helped your community</string>
+    <string name="history_button">Help More</string>
+    <string name="number_of_sandwiches">0</string>
+    <string name="number_of_socks">0</string>
+    <string name="number_of_sleep">0</string>
+    <string name="number_of_coffee">0</string>
+    <string name="donate_button">Help Today</string>
 
 </resources>
