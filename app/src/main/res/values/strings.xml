@@ -1,27 +1,31 @@
 <resources>
     <string name="app_name">Heartt</string>
 
+    <string name="button_start">Start</string>
+    <string name="button_continue">Food</string>
+    <string name="button_gloves">Warmth</string>
+    <string name="button_sleep">Sleep</string>
+
 
     <string name="sandwich">
-        The Sandwich Grill is known to provide everyone with mouth watering sandwiches. We offer basic cheese sandwiches to our very favorite triple bacon, egg, sausage jumbo sandwich. Come and enjoy a meal at the Sandwich Grill and we promise you will not be disappointed.\nWith the help of the donation you provide to us, we are able to offer food to EVERYONE. So help us out so we can help each other to make the world a better place! \n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Egestas tellus rutrum tellus pellentesque.
+    </string>
+    <string name="glove">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida arcu ac tortor dignissim convallis aenean et. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Consectetur adipiscing elit pellentesque habitant.
     </string>
 
-    <string name="button_start">Start</string>
-    <string name="button_continue">Sandwiches</string>
-    <string name="button_gloves">GLOVES</string>
-    <string name="button_sleep">SLEEP</string>
-    <string name="glove">
-        Warm Winter, like the name says, ensures that you get to spend a warm, toasty winter. Our collection of sweaters, gloves and scarves will stop you from turning into a snowman! So do come and check our winter collection.\nIf you donate to our local business, we will be able to ensure that NO ONE has to turn into a snowman this winter. So join us in building a WARM WINTER\n
-    </string>
     <string name="sleep">
-        Sleep Well works towards giving you the peaceful sleep that you deserve. Our collection of comfy pillows, warm blankets, beautiful bedsheets and sleeping bags ensures that you SLEEP WELL. Come and see our collection and get the sleep that you need. \nIf you donate to Sleep Well, you will be helping us to provide pillows, blankets and sleeping bags to everyone in need. So join us in making the world a happy place! \n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras adipiscing enim. Nullam non nisi est sit amet facilisis magna etiam. Integer enim neque volutpat ac tincidunt vitae semper quis.
     </string>
-    <string name="history_text">This is how much you have helped your community</string>
-    <string name="history_button">Help More</string>
+
+    <string name="history_text">Community Impact</string>
+    <string name="history_button">Give Again</string>
+    <string name="donate_button">Give</string>
+
+
     <string name="number_of_sandwiches">0</string>
     <string name="number_of_socks">0</string>
     <string name="number_of_sleep">0</string>
     <string name="number_of_coffee">0</string>
-    <string name="donate_button">Help Today</string>
 
 </resources>

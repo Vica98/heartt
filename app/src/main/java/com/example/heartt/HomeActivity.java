@@ -2,6 +2,7 @@ package com.example.heartt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -51,6 +52,12 @@ public class HomeActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the main_menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_menu, menu);
+
+        //remove up/back arrow from home screen
+        getSupportActionBar().setHomeButtonEnabled(false);      // Disable the button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false); // Remove the left caret
+        getSupportActionBar().setDisplayShowHomeEnabled(false); // Remove the icon
+
         return true;
     }
 
