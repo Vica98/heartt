@@ -31,7 +31,7 @@ public class loginInfo extends AppCompatActivity {
             public void onClick(View v) {
                 if(db.login(name.getText().toString(), pass.getText().toString())){
                     Toast.makeText(getApplicationContext(),"valid", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(loginInfo.this, HomeActivity.class);
+                    Intent intent = new Intent(loginInfo.this, InfoPageActivity.class);
                     startActivity(intent);
                 }
                 else
@@ -46,7 +46,7 @@ public class loginInfo extends AppCompatActivity {
             public void onClick(View v) {
                 db.signup(name.getText().toString(), pass.getText().toString());
                 Toast.makeText(getApplicationContext(),"DONE", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(loginInfo.this, HomeActivity.class);
+                Intent intent = new Intent(loginInfo.this, InfoPageActivity.class);
                 startActivity(intent);
 
             }
