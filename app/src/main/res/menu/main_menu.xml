@@ -9,5 +9,5 @@
 
     <item
         android:id="@+id/item3"
-        android:title="Info/Attributions"></item>
+        android:title="About"></item>
 </menu>
