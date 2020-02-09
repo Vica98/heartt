@@ -22,5 +22,6 @@
     <string name="number_of_socks">0</string>
     <string name="number_of_sleep">0</string>
     <string name="number_of_coffee">0</string>
+    <string name="donate_button">Help Today</string>
 
 </resources>
